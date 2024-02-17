@@ -36,5 +36,4 @@ To begin the assessment, follow these steps:
 3. Maintained reusability and scalability. Added necessary comments/Todos for reference.
 4. Implemented `Edit Feature` by exposing a `PATCH` route on BE and integrated the same on FE.
 
-![Application Screenshot]([https://openai.com/favicon.ico](https://drive.google.com/file/d/120t3aA1Uku0xKP3_FNuv02hTag397sr8/view?usp=sharing))
-
+![Application Screenshot](https://i.imgur.com/eVycBfO.jpeg)
