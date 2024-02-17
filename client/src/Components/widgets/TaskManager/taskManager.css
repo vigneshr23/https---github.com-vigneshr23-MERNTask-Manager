@@ -1,0 +1,15 @@
+.task-manager {
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.task-section {
+    position: sticky;
+    top: 2rem;
+    padding-bottom: 1rem;
+    z-index: 1;
+    border: 1px solid rgba(174, 161, 233, 0.301);
+    background: rgba(174, 161, 233, 0.301);
+}
+.center {
+    text-align: center;
+}

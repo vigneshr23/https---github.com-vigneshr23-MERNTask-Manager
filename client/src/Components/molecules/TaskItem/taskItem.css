@@ -1,0 +1,23 @@
+.task-item {
+    padding: 1rem;
+    border: 1px solid #ebe5e5;
+    box-shadow: 0 4px 4px rgba(80, 76, 76, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.actions-container {
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.editable-task {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 60%;
+}

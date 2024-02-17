@@ -1,0 +1,25 @@
+.add-task-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.add-task-section button {
+    cursor: pointer;
+}
+
+.task-section-fields-container {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+    .add-task-section {
+        max-width: 100%;
+    }
+    .task-section-fields-container {
+        flex-direction: column;
+    }
+}
