@@ -29,28 +29,12 @@ To begin the assessment, follow these steps:
 
 3. **Access the Application**: Open your web browser and navigate to `http://localhost:8080` to access the MERN Task Manager application.
 
-## Assessment Tasks
 
-Your task is to improve the code quality, apply SOLID principles, and write unit test cases for the existing MERN Task Manager application. Here are the specific tasks you should focus on:
+## Changes:
+1. Restructured the application by segmenting into client(react application) and server(express application).
+2. Followed atomic structure to organize the components.
+3. Maintained reusability and scalability. Added necessary comments/Todos for reference.
+4. Implemented `Edit Feature` by exposing a `PATCH` route on BE and integrated the same on FE.
 
-1. **Code Quality**: Review the existing codebase and identify areas for improvement in terms of code quality, readability, project structuring and maintainability. Apply coding standards, conventions, and best practices to enhance the overall quality of the code.
+![Application Screenshot]([https://openai.com/favicon.ico](https://drive.google.com/file/d/120t3aA1Uku0xKP3_FNuv02hTag397sr8/view?usp=sharing))
 
-2. **SOLID Principles**: Apply SOLID principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) to refactor the codebase where necessary. Ensure that each component and module adheres to these principles to promote better design and extensibility.
-
-3. **Unit Test Cases**: Write unit test cases using a testing framework such as Jest or Mocha to test critical components, functions, and endpoints of the application. Cover both positive and negative test cases to ensure robustness and reliability.
-
-4. **TypeScript**: Re-Write the javascript files with TypeScript throughout the project.
-
-## Feature Request
-
-In addition to code assessment, you are expected to add "Done" feature to mark the task completed for the each task. All done tasks should be sorted and placed at the bottom of task list. Visually, you can either strikethrough the task or make the task with light gray color to show the task is Done.
-
-## Submission Guidelines
-
-You might find some files are placed in wrong folder intentionally, try to fix them while you restructure the project. If you have issues to run mongodb locally, you can mock the mongodb to get the intended behaviour.
-
-Once you have completed the tasks, submit your solution by sending mail within 24 hours. Include a detailed description of the changes made, rationale behind your decisions, and any challenges faced during the process.
-
-## Feedback and Support
-
-If you have any questions, concerns, or need assistance during the assessment, feel free to reach out back to us.
